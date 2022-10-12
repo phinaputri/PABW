@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography Phina</title>
+</head>
+
+<body>
+    <img style="float:leaft"; src="" alt="">
+
+
+    <header>
+        <h1 style="margin-left: 18em;">BIOGRAPHY</h1>
+    </header>
+        <img style="float:left" src="https://asset.kompas.com/crops/PRcUU1eXOE3L1h3_66xXIjgcNjA=/0x0:0x0/750x500/data/photo/2021/07/08/60e6901a4992e.jpg" width="200" height="200" alt=""> 
+        
+        <p style="margin-left: 1em;"> Hi! My name is <b>Phina Putri Amalia.</b> I'm <em><b>20 years old</em></b>. I'm from Cibolang, <mark>Sukabumi</mark> I'm student majoring in <s>informatics engineering</s> at the Nusa Putra University.
+            My hobby is watching K-drama. I want to vacation in Maldives and have a resort area of <u>500m<sup>2</sup></u> </p>
+        <h5 style="clear:both;">Sedang difoto</h5>
+
+        <h1 style="clear:both;">Riwayat Pendidikan dan Organisasi</h1>
+        <ul>
+            <li>Riwayat Pendidikan
+                <ul>
+                    <li>
+                        <a href="">RA Assalafiyyah</a>
+                    </li>
+                    <li>
+                        <a href="">MI MWB PUI</a>
+                    </li>
+                    <li>
+                        <a href="">MTS Sunanulhuda</a>
+                    </li>
+                    <li>
+                        <a href="">MAN 2 Kota Sukabumi</a>
+                    </li>
+                    <li>
+                        <a href="">Universitas Nusa Putra</a>
+                    </li>
+                </ul>
+            </li>
+
+            <br />
+
+            <li>Riwayat Organisasi
+                <ol>
+                    <li>
+                        <a href="">ROHIS</a>
+                    </li>
+                    <li>
+                        <a href="">KIR</a>
+                    </li>
+                    <li>
+                        <a href="">HMTI</a>
+                    </li>
+                    <li>
+                        <a href="">GANAS</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>      
+
+</body>
+</html>

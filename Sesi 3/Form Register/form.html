@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="form.css">
+    <title>Form Registrasi Mahasiswa</title>
+</head>
+<body>
+    <div class container>
+        <h1 align="center">Form Pendaftaran Mahasiswa</h1>
+        <form method="post" action="/" id="form" class="validate">
+            <div class="form-field">
+                <label for="name">Nama</label>
+                <input type="text" name="name" id="nama" placeholder="Masukkan Nama Lengkap Anda" required />
+            </div>
+            <div class="form-field">
+                <label for="email-input">Email</label>
+                <input type="email" name="email" id="email" placeholder="contoh@domain.com" required />
+            </div>
+            <div class="form-field">
+                <label for="password">Kata Sandi</label>
+                <input type="password" name="pasword" id="password" placeholder="*****" required />
+            </div>
+
+            <div class="form-field">
+                <label for="Jenis Kelamin">Jenis Kelamin<br>
+                    <select name="jenis-kelamin" id="jk">
+                        <option value="Laki-Laki">Laki-Laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="form-field">
+                <label for="">Alamat</label>
+                <textarea></textarea>
+            </div>
+            <div class="form-field">
+                <label for="foto">Foto</label>
+                <input type="file" name="" id="" />
+            </div>
+
+            <div class="form-field">
+                <label for=""></label>
+                <input type="submit" value="Daftar">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>   
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./table.css" />
+  <title>Tabel Input Data Penjualan</title>
+</head>
+
+<body>
+  <div class="container">
+    <form method="post" action="/" id="form" class="validate">
+      <div class="form-field">
+        <label for="email-input">Email</label>
+        <input type="email" name="email-input" id="email-input" placeholder="example@domain.com" required />
+      </div>
+      <div class="form-field">
+        <label for="product-name">Product Name</label>
+        <input type="text" name="product-name" id="product-name" placeholder="iPhone 14 Pro Max" required />
+      </div>
+      <div class="form-field">
+        <label for=""></label>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+
+    <div class="heading">
+      <label for="">
+        Purchases
+        <span class="badge success">
+          24
+        </span>
+      </label>
+      <input type="text" class="search" placeholder="Search" />
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th><input type="checkbox" name="" id="" /></th>
+          <th>Purchase Number</th>
+          <th>Email Address</th>
+          <th>Cart</th>
+          <th>Status</th>
+          <th>Amount</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" name="" id="" /></td>
+          <td>#00000123</td>
+          <td>phinaputria10@gmail.com</td>
+          <td>iPhone 14 Pro Max</td>
+          <td><span class="badge">Ready for dispatch</span></td>
+          <td>$1.099</td>
+          <td>
+            <button>See Details</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" name="" id="" /></td>
+          <td>#00000124</td>
+          <td>chaeunwoo@gmail.com</td>
+          <td>Samsung S22 Ultra</td>
+          <td><span class="badge danger">Pending</span></td>
+          <td>$1.072,5</td>
+          <td>
+            <button>See Details</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="pagination">
+        <a class="btn" href=""><</a>
+        <a class="btn active" href="">1</a>
+        <a class="btn" href="">2</a>
+        <a class="btn" href="">3</a>
+        <a class="btn" href="">4</a>
+        <a class="btn" href="">5</a>
+        <a class="btn" href="">..</a>
+        <a class="btn" href="">64</a>
+        <a class="btn" href="">></a>
+    </div>
+  </div>
+</body>
+
+</html>

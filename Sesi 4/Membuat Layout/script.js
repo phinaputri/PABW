@@ -122,4 +122,4 @@ var slideNumberTab = 0;
   
     slidesTab[slideNumberTab].classList.add("active");
     slideIconsTab[slideNumberTab].classList.add("active");
-  });;
+  });
